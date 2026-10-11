@@ -1,7 +1,7 @@
 /**
  * ===================================================================
  * SACRED GOLDEN THREAD (UNTIE THE KNOT) CONTROLLER
- * Ashin & Vrinda — September 06, 2026
+ * Mohammed Nadeer & Fathima Rinsi — October 31, 2026
  * ===================================================================
  */
 

@@ -1,7 +1,8 @@
 /**
  * ===================================================================
  * WEDDING INVITATION CONFIGURATION
- * Ashin & Vrinda — Sunday, September 06, 2026 (1202 Chingam 21)
+ * Mohammed Nadeer & Fathima Rinsi — Saturday, October 31, 2026
+ * { 20 Jumada al-Awwal (Jumada I) 1448 AH }
  * ===================================================================
  */
 
@@ -9,114 +10,116 @@ const WEDDING_CONFIG = {
   // Couple Information
   couple: {
     groom: {
-      name: "Ashin",
-      fullName: "Ashin Ajith",
+      name: "Mohammed Nadeer",
+      fullName: "Mohammed Nadeer",
       title: "The Groom",
-      avatar: "assets/images/couple_portrait.jpg",
-      parents: "Mrs. Sheeja Ajith Kumar & Mr. Ajith Kumar",
-      residence: "Ambalathingal House, Vadakkathara Road, Poonithura P.O., Pettah, Ernakulam",
-      phone: "+919497679581",
-      formattedPhone: "94976 79581",
-      invitationNote: "With warm hearts and folded hands, we cordially invite you with family to bless our sacred union."
+      parents: "Mr. Mohammed Basheer & Mrs. Shahanaz",
+      grandParents: "Late Hamza Haji & Late Abdul Kader",
+      residence: "Pulaparambil (H), Chekanoor, Malappuram",
+      phone: "+919846000000",
+      formattedPhone: "Pulaparambil Family",
+      invitationNote: "With warm hearts and sincere prayers, we cordially invite you with family to bless our sacred union."
     },
 
     bride: {
-      name: "Vrinda",
-      fullName: "Vrinda Sudhakaran",
+      name: "Fathima Rinsi",
+      fullName: "Fathima Rinsi",
       title: "The Bride",
-      avatar: "assets/images/couple_portrait.jpg",
-      parents: "Mrs. Sini. K. Damodharan & Mr. Sudhakaran",
-      residence: "Kunnumpurathu House, B.P.C. College Jn., Mulakkulam North, Piravom",
-      phone: "+918590758807",
-      formattedPhone: "85907 58807",
+      parents: "Mr. Subair & Mrs. Soubanath Subair",
+      residence: "Chandaparambil (H), Edappal",
+      phone: "+919847000000",
+      formattedPhone: "Chandaparambil Family",
       invitationNote: "With love, joy, and gratitude, we invite you to celebrate this blessed milestone in our lives."
     },
-    monogram: "A & V",
-    hashtag: "#AshinWedsVrinda"
+    monogram: "N / R",
+    monogramShort: "N/R",
+    hashtag: "#NadeerWedsRinsi"
   },
 
   // Event Date & Time
   event: {
-    targetDate: "2026-09-06T11:59:00",
-    dayOfWeek: "SUNDAY",
-    day: "06",
-    month: "SEP",
-    monthFull: "September",
+    targetDate: "2026-10-31T16:00:00",
+    dayOfWeek: "SATURDAY",
+    day: "31",
+    month: "OCT",
+    monthFull: "October",
     year: "2026",
-    formattedDate: "Sunday, 06 September 2026",
-    traditionalDate: "1202 Chingam - 21",
-    muhurthamTime: "Between 11.59 a.m. and 12.20 p.m.",
-    lunchTime: "For Lunch Thereafter",
+    formattedDate: "Saturday, 31 October 2026",
+    hijriDate: "{ 20 JUMADA AL-AWWAL (JUMADA I) 1448 AH }",
+    timeText: "4:00PM TO 8:30PM",
     
     // Calendar Event Info
     calendar: {
-      title: "Wedding of Ashin & Vrinda",
-      description: "Marriage ceremony of Ashin & Vrinda on Sunday, 06 September 2026 (1202 Chingam 21) at Pet Rose Event Centre Pathammile, Puthencruz. Muhurtham: Between 11.59 a.m. and 12.20 p.m., followed by celebratory lunch.",
-      location: "Pet Rose Event Centre, Pathammile, Puthencruz, Kerala",
-      startIso: "20260906T115900",
-      endIso: "20260906T153000"
+      title: "Wedding of Mohammed Nadeer & Fathima Rinsi",
+      description: "Together with their families, Mohammed Nadeer and Fathima Rinsi cordially invite you to celebrate their wedding on Saturday, 31 October 2026 (20 Jumada al-Awwal 1448 AH) at CN Auditorium Kumbidi from 4:00 PM to 8:30 PM.",
+      location: "CN Auditorium, Old Anakkara Road, Kumbidi, Palakkad – 679553, Kerala",
+      startIso: "20261031T160000",
+      endIso: "20261031T203000"
     }
   },
 
   // Venue & Location
   venue: {
-    name: "Pet Rose Event Centre",
-    subLocation: "Pathammile, Puthencruz",
-    city: "Ernakulam",
+    name: "CN Auditorium Kumbidi",
+    subLocation: "Old Anakkara Road, Kumbidi",
+    city: "Palakkad",
     state: "Kerala",
-    fullAddress: "Pet Rose Event Centre, Pathammile, Vadayampady P.O., Puthencruz, Ernakulam, Kerala 682308",
-    googleMapsUrl: "https://maps.app.goo.gl/AMYLqvt9achFLu336?g_st=aw",
-    appleMapsUrl: "https://maps.apple.com/?q=Pet+Rose+Event+Centre+Puthencruz"
+    pincode: "679553",
+    fullAddress: "CN Auditorium (See Yen Auditorium), Old Anakkara Road, Kumbidi, Palakkad – 679553, Kerala",
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=See+Yen+Auditorium+Kumbidi+Palakkad",
+    appleMapsUrl: "https://maps.apple.com/?q=CN+Auditorium+Kumbidi"
   },
 
   // Invitation Messages from the Card
   messages: {
-    hostsLine: "Mrs. Sheeja Ajith Kumar & Mr. Ajith Kumar",
-    hostsResidence: "Ambalathingal House, Vadakkathara Road, Poonithura P.O., Pettah, Ernakulam",
-    inviteStatement: "cordially invite your esteemed presence with family on the occasion of the marriage of our son",
-    groomName: "Ashin",
-    wedsText: "Weds",
-    brideName: "Vrinda",
-    brideParents: "D/o Mrs. Sini. K. Damodharan & Mr. Sudhakaran",
-    brideResidence: "Kunnumpurathu House, B.P.C. College Jn., Mulakkulam North, Piravom",
-    dateText: "on Sunday 6th September 2026",
-    malayalamDate: "(1202 Chingam - 21)",
-    venueText: "at Pet Rose Event Centre Pathammile, Puthencruz.",
-    lunchText: "and for Lunch thereafter",
-    muhurthamText: "Muhurtham : Between 11.59 a.m. and 12.20 p.m.",
+    bismillah: "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+    monogramText: "N/R",
+    introLine: "TOGETHER WITH THEIR FAMILIES",
+    groomName: "MOHAMMED NADEER",
+    groomParents: "S/O MR. MOHAMMED BASHEER & MRS. SHAHANAZ",
+    groomGrandParents: "GRAND S/O LATE HAMZA HAJI & LATE ABDUL KADER",
+    groomResidence: "PULAPARAMBIL (H), CHEKANOOR, MALAPPURAM",
+    andText: "and",
+    brideName: "FATHIMA RINSI",
+    brideParents: "D/O MR. SUBAIR & MRS. SOUBANATH SUBAIR",
+    brideResidence: "CHANDAPARAMBIL (H), EDAPPAL",
+    invocationText: "In sha allah on",
+    dayOfWeek: "SATURDAY",
+    day: "31",
+    month: "OCTOBER",
+    year: "2026",
+    hijriDate: "{ 20 JUMADA AL-AWWAL (JUMADA I) 1448 AH }",
+    venueName: "CN AUDITORIUM KUMBIDI",
+    timingText: "4:00PM TO 8:30PM",
     wishesLead: "With best Wishes :",
-    wishesNames: "Rajamma Padmanabhan,\nAbhin Ajith",
-    phone1: "94976 79581",
-    phone2: "85907 58807",
-    phone1Raw: "+919497679581",
-    phone2Raw: "+918590758807"
+    wishesNames: "Pulaparambil & Chandaparambil Families"
   },
 
   // Events Timeline
   events: [
     {
       step: "01",
-      title: "Wedding Muhurtham Ceremony",
-      subtitle: "Sacred Thalikettu & Divine Rituals",
-      time: "Between 11:59 AM and 12:20 PM",
-      badgeText: "Auspicious Muhurtham",
-      quote: "✦ 1202 Chingam - 21 ✦",
-      description: "Sacred marriage rituals, Thalikettu, garland exchange, and receiving divine blessings in the presence of family and loved ones.",
-      rituals: ["Traditional Rites", "Thalikettu & Garlands", "Elders' Blessings"],
-      locationName: "Pet Rose Event Centre, Pathammile, Puthencruz",
-      mapsUrl: "https://maps.app.goo.gl/AMYLqvt9achFLu336?g_st=aw"
+      title: "Guest Reception & Welcome Gathering",
+      subtitle: "Festive Welcome & Fellowship",
+      time: "4:00 PM Onwards",
+      badgeText: "Auspicious Welcome",
+      quote: "✦ 20 Jumada al-Awwal 1448 AH ✦",
+      description: "Welcoming beloved family, friends, and esteemed guests to celebrate this blessed union and joyous occasion.",
+      rituals: ["Warm Welcome", "Family Gathering", "Festive Celebrations"],
+      locationName: "CN Auditorium, Kumbidi",
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=See+Yen+Auditorium+Kumbidi+Palakkad"
     },
     {
       step: "02",
-      title: "Celebration Feast & Lunch",
-      subtitle: "Grand Wedding Sadhya & Fellowship",
-      time: "Thereafter (12:30 PM Onwards)",
-      badgeText: "Grand Wedding Sadhya",
-      quote: "✦ Feasting, Joy & Celebrations ✦",
-      description: "Join us for a royal traditional Kerala wedding feast, heartfelt conversations, congratulations, and memorable moments with the couple.",
-      rituals: ["Royal Kerala Sadhya", "Meet & Congratulate", "Photos & Fellowship"],
-      locationName: "Pet Rose Event Centre, Pathammile, Puthencruz",
-      mapsUrl: "https://maps.app.goo.gl/AMYLqvt9achFLu336?g_st=aw"
+      title: "Wedding Celebrations & Grand Feast",
+      subtitle: "Nikah Blessings & Celebration Dinner",
+      time: "4:00 PM TO 8:30 PM",
+      badgeText: "Celebration Feast",
+      quote: "✦ Prayers, Joy & Fellowship ✦",
+      description: "Join us in offering du'a and prayers for the couple, followed by a delicious celebratory dinner and memorable moments with the newlyweds.",
+      rituals: ["Nikah & Du'a", "Celebration Feast", "Meet the Couple"],
+      locationName: "CN Auditorium, Kumbidi",
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=See+Yen+Auditorium+Kumbidi+Palakkad"
     }
   ]
 };

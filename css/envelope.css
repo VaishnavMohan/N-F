@@ -1,6 +1,6 @@
 /* ===================================================================
    SACRED GOLDEN THREAD (UNTIE THE KNOT) OPENING EXPERIENCE
-   Ashin & Vrinda — Sunday, September 06, 2026
+   Mohammed Nadeer & Fathima Rinsi — Saturday, October 31, 2026
    =================================================================== */
 
 /* Prevent page scrolling while overlay is active */
@@ -120,33 +120,33 @@ body:not(.envelope-opened) {
   transform: rotate(180deg);
 }
 
-/* Card Header (Lord Ganesha & Auspicious Invocation) */
+/* Card Header (Royal Monogram & Invocation) */
 .thread-card-header {
   position: relative;
   z-index: 2;
   margin-bottom: 8px;
 }
 
-.thread-ganesha-wrap {
-  width: 48px;
-  height: 54px;
-  margin: 0 auto 6px;
+.thread-monogram-wrap {
+  margin: 0 auto 4px;
 }
 
-.thread-ganesha-svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-  filter: drop-shadow(0 2px 6px rgba(184, 142, 62, 0.3));
-}
-
-.thread-auspicious-mantra {
+.thread-monogram-text {
   font-family: var(--font-royal);
-  font-size: clamp(0.74rem, 2.8vw, 0.82rem);
+  font-size: clamp(2.2rem, 7vw, 2.9rem);
   font-weight: 700;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.16em;
   color: #8F6E28;
-  margin-bottom: 2px;
+  line-height: 1;
+  text-shadow: 0 1px 4px rgba(143, 110, 40, 0.25);
+}
+
+.thread-bismillah {
+  font-size: clamp(1rem, 3.2vw, 1.25rem);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #8F6E28;
+  margin: 4px 0 2px;
 }
 
 .thread-invitation-sub {
@@ -174,12 +174,25 @@ body:not(.envelope-opened) {
 }
 
 .thread-couple-names {
-  font-family: var(--font-script);
-  font-size: clamp(2.8rem, 8.8vw, 3.6rem);
+  font-family: var(--font-royal);
+  font-size: clamp(1.35rem, 4.5vw, 1.8rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
   color: #1E3E2B;
-  line-height: 1.05;
-  margin: 2px 0;
-  text-shadow: 0 1px 4px rgba(30, 62, 43, 0.15);
+  line-height: 1.2;
+  margin: 4px 0;
+  text-transform: uppercase;
+}
+
+.thread-couple-and {
+  font-family: var(--font-script);
+  font-size: clamp(1.8rem, 5vw, 2.4rem);
+  color: #8F6E28;
+  display: block;
+  line-height: 0.9;
+  margin: 1px 0;
+  font-style: italic;
+  text-transform: none;
 }
 
 .thread-date-line {
@@ -189,7 +202,7 @@ body:not(.envelope-opened) {
   letter-spacing: 0.18em;
   color: #8F6E28;
   text-transform: uppercase;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 /* ─────────────────────────────────────────────────────────────

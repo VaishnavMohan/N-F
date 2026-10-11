@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>WhatsApp Thumbnail Preview - Ashin &amp; Vrinda</title>
+  <title>WhatsApp Thumbnail Preview - Mohammed Nadeer &amp; Fathima Rinsi</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -13,7 +13,7 @@
       height: 630px;
       overflow: hidden;
       background: radial-gradient(circle at 60% 40%, #173322 0%, #0D1C13 55%, #050B08 100%);
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Cinzel', serif;
       color: #FAF7F2;
       display: flex;
       align-items: center;
@@ -40,12 +40,12 @@
       height: 100%;
       border: 2px solid #2B523B;
       border-radius: 28px;
-      background: rgba(14, 28, 20, 0.85);
+      background: rgba(14, 28, 20, 0.88);
       box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), inset 0 0 0 1px rgba(229, 197, 120, 0.35);
       display: flex;
       align-items: center;
-      padding: 36px 44px;
-      gap: 44px;
+      padding: 36px 48px;
+      gap: 48px;
       position: relative;
       overflow: hidden;
     }
@@ -59,25 +59,72 @@
       pointer-events: none;
     }
 
-    /* Left Photo Showcase */
-    .photo-frame {
-      width: 420px;
-      height: 470px;
-      border-radius: 22px;
-      border: 3px solid #E5C578;
+    /* Left Royal Card Showcase (No Photo) */
+    .card-crest-showcase {
+      width: 380px;
+      height: 480px;
+      border-radius: 20px;
+      border: 2px solid #D4AF37;
       box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 24px rgba(229, 197, 120, 0.3);
-      overflow: hidden;
       flex-shrink: 0;
       position: relative;
-      background: #112018;
+      background: #FAF8F5;
+      color: #1A1A1A;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      text-align: center;
     }
 
-    .photo-img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center 20%;
-      display: block;
+    .card-crest-showcase::before {
+      content: '';
+      position: absolute;
+      inset: 8px;
+      border: 1.5px solid #C5A059;
+      border-radius: 12px;
+      pointer-events: none;
+    }
+
+    .crest-monogram {
+      font-size: 58px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      color: #1A1A1A;
+      margin-bottom: 8px;
+    }
+
+    .crest-together {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: #333333;
+      margin-bottom: 22px;
+    }
+
+    .crest-date-block {
+      border-top: 1px solid #C5A059;
+      border-bottom: 1px solid #C5A059;
+      padding: 10px 18px;
+      margin: 12px 0;
+    }
+
+    .crest-date-text {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      color: #1A1A1A;
+      text-transform: uppercase;
+    }
+
+    .crest-hijri {
+      font-size: 9.5px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      color: #555555;
+      margin-top: 8px;
     }
 
     /* Right Details Content */
@@ -90,81 +137,85 @@
       z-index: 2;
     }
 
-    .ganesha-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 12px;
-    }
-
-    .ganesha-svg {
-      width: 28px;
-      height: 32px;
-    }
-
-    .auspicious-text {
-      font-family: 'Cinzel', serif;
-      font-size: 14px;
+    .bismillah-text {
+      font-size: 20px;
       font-weight: 700;
-      letter-spacing: 0.22em;
       color: #E5C578;
+      letter-spacing: 0.14em;
+      margin-bottom: 6px;
     }
 
     .invite-tag {
-      font-family: 'Cinzel', serif;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 600;
-      letter-spacing: 0.24em;
+      letter-spacing: 0.28em;
       text-transform: uppercase;
       color: #A8C2B3;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
     }
 
-    .couple-title {
-      font-family: 'Great Vibes', cursive;
-      font-size: 76px;
+    .groom-name {
+      font-size: 38px;
+      font-weight: 700;
       color: #FFFFFF;
-      line-height: 1.05;
-      margin: 2px 0 10px;
-      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.8), 0 0 20px rgba(229, 197, 120, 0.4);
+      letter-spacing: 0.08em;
+      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+      line-height: 1.1;
+    }
+
+    .and-script {
+      font-family: 'Great Vibes', cursive;
+      font-size: 42px;
+      color: #E5C578;
+      line-height: 1;
+      margin: 2px 0;
+    }
+
+    .bride-name {
+      font-size: 38px;
+      font-weight: 700;
+      color: #FFFFFF;
+      letter-spacing: 0.08em;
+      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.8);
+      line-height: 1.1;
+      margin-bottom: 14px;
     }
 
     .date-box {
       display: inline-flex;
       align-items: center;
       gap: 12px;
-      padding: 8px 20px;
-      background: rgba(229, 197, 120, 0.12);
-      border: 1px solid rgba(229, 197, 120, 0.35);
+      padding: 8px 22px;
+      background: rgba(229, 197, 120, 0.14);
+      border: 1px solid rgba(229, 197, 120, 0.4);
       border-radius: 9999px;
       margin-bottom: 14px;
       width: fit-content;
     }
 
     .date-text {
-      font-family: 'Cinzel', serif;
-      font-size: 14px;
+      font-size: 13.5px;
       font-weight: 700;
-      letter-spacing: 0.14em;
+      letter-spacing: 0.16em;
       color: #FFF0C2;
       text-transform: uppercase;
     }
 
     .venue-block {
       font-family: 'Cormorant Garamond', Georgia, serif;
-      font-size: 23px;
-      font-style: italic;
+      font-size: 24px;
+      font-weight: 600;
       color: #E8E1D3;
       line-height: 1.35;
     }
 
-    .muhurtham-tag {
+    .timing-tag {
       font-family: 'Montserrat', sans-serif;
-      font-size: 13px;
+      font-size: 13.5px;
       font-weight: 600;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em;
       color: #E5C578;
-      margin-top: 14px;
+      margin-top: 10px;
       display: flex;
       align-items: center;
       gap: 8px;
@@ -175,44 +226,39 @@
   <div class="glow"></div>
   <div class="card-container">
     
-    <!-- Couple Portrait -->
-    <div class="photo-frame">
-      <img src="assets/images/couple_hero.jpg" alt="Ashin and Vrinda" class="photo-img">
+    <!-- Left Royal Inset Invitation Card -->
+    <div class="card-crest-showcase">
+      <div class="crest-monogram">N/R</div>
+      <div class="crest-together">Together With<br>Their Families</div>
+      <div class="crest-date-block">
+        <div class="crest-date-text">31 OCTOBER 2026</div>
+      </div>
+      <div class="crest-hijri">{ 20 JUMADA AL-AWWAL 1448 AH }</div>
     </div>
 
     <!-- Wedding Details -->
     <div class="details-content">
-      <div class="ganesha-badge">
-        <svg class="ganesha-svg" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M40 8 C38 12 36 18 36 24 C38 22 42 22 44 24 C44 18 42 12 40 8 Z" fill="#E5C578" />
-          <circle cx="40" cy="14" r="2" fill="#E5C578" />
-          <path d="M33 22 C37 19 43 19 47 22" stroke="#E5C578" stroke-width="2.2" stroke-linecap="round" />
-          <path d="M34 26 C24 24 16 32 18 44 C20 54 28 56 34 50" stroke="#E5C578" stroke-width="2.5" stroke-linecap="round" />
-          <path d="M46 26 C56 24 64 32 62 44 C60 54 52 56 46 50" stroke="#E5C578" stroke-width="2.5" stroke-linecap="round" />
-          <path d="M40 24 L40 40" stroke="#E5C578" stroke-width="2.5" stroke-linecap="round" />
-          <path d="M40 40 C42 48 45 58 40 68 C36 76 26 76 24 68 C22 60 30 58 35 62" stroke="#E5C578" stroke-width="2.8" stroke-linecap="round" />
-          <circle cx="35" cy="62" r="3" fill="#E5C578" />
-        </svg>
-        <span class="auspicious-text">॥ ശ്രീ ഗണേശായ നമഃ ॥</span>
-      </div>
-
+      <div class="bismillah-text">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
       <div class="invite-tag">Wedding Invitation</div>
-      <h1 class="couple-title">Ashin &amp; Vrinda</h1>
+      
+      <div class="groom-name">MOHAMMED NADEER</div>
+      <div class="and-script">and</div>
+      <div class="bride-name">FATHIMA RINSI</div>
       
       <div class="date-box">
         <span>📅</span>
-        <span class="date-text">Sunday, 06 September 2026</span>
+        <span class="date-text">Saturday, 31 October 2026</span>
       </div>
 
       <div class="venue-block">
-        Pet Rose Event Centre, Puthencruz
+        CN Auditorium Kumbidi
       </div>
 
-      <div class="muhurtham-tag">
+      <div class="timing-tag">
         <span>⏰</span>
-        <span>Muhurtham: 11:59 AM – 12:20 PM</span>
+        <span>4:00 PM TO 8:30 PM</span>
         <span>•</span>
-        <span>Lunch Thereafter</span>
+        <span>Kumbidi, Kerala</span>
       </div>
     </div>
 

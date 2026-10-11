@@ -1,7 +1,8 @@
 /**
  * ===================================================================
  * MAIN APPLICATION CONTROLLER, THEME ENGINE & ACTIONS
- * Ashin & Vrinda — September 06, 2026 (1202 Chingam 21)
+ * Mohammed Nadeer & Fathima Rinsi — October 31, 2026
+ * { 20 Jumada al-Awwal (Jumada I) 1448 AH }
  * ===================================================================
  */
 
@@ -111,8 +112,8 @@ function setupActionButtons() {
   const shareBtn = document.getElementById('share-whatsapp-btn');
   if (shareBtn) {
     shareBtn.addEventListener('click', () => {
-      const title = "🌿 Wedding Invitation: Ashin & Vrinda";
-      const desc = "Mrs. Sheeja Ajith Kumar & Mr. Ajith Kumar cordially invite your esteemed presence with family on the occasion of the marriage of their son Ashin with Vrinda (D/o Mrs. Sini. K. Damodharan & Mr. Sudhakaran) on Sunday, 6th September 2026 (1202 Chingam 21) at Pet Rose Event Centre Pathammile, Puthencruz.\n\nMuhurtham: Between 11.59 a.m. and 12.20 p.m. and for Lunch thereafter.\n\n✦ Tap to view the digital invitation card:";
+      const title = "🌿 Wedding Invitation: Mohammed Nadeer & Fathima Rinsi";
+      const desc = "Together with their families, Mohammed Nadeer and Fathima Rinsi cordially invite you to celebrate their wedding on Saturday, 31st October 2026 (20 Jumada al-Awwal 1448 AH) at CN Auditorium Kumbidi from 4:00 PM to 8:30 PM.\n\n✦ Tap to view the digital invitation card:";
       const url = window.location.href;
       const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(title + '\n\n' + desc + '\n' + url)}`;
       window.open(whatsappUrl, '_blank');
@@ -158,7 +159,7 @@ function setupCopyAddress() {
   copyBtn.addEventListener('click', () => {
     const address = (window.WEDDING_CONFIG && window.WEDDING_CONFIG.venue && window.WEDDING_CONFIG.venue.fullAddress)
       ? window.WEDDING_CONFIG.venue.fullAddress
-      : "Pet Rose Event Centre, Pathammile, Vadayampady P.O., Puthencruz, Ernakulam, Kerala 682308";
+      : "CN Auditorium (See Yen Auditorium), Old Anakkara Road, Kumbidi, Palakkad – 679553, Kerala";
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(address).then(() => {
